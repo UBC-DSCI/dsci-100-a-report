@@ -15,5 +15,5 @@ Department of Statistics </br>
   - [worksheet_08](https://cybera.syzygy.ca/jupyter/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUBC-DSCI%2Fdsci-100&branch=master&urlpath=tree%2Fdsci-100%2Fmaterials%2Fworksheet_08%2Fworksheet_08.ipynb)
 
 - Course textbook: 
-**[An Introduction to Data Science](https://ubc-dsci.github.io/introduction-to-datascience/)** by Tiffany Timbers, Trevor Campbell & Melissa Lee 
+**[An Introduction to Data Science](https://ubc-dsci.github.io/introduction-to-datascience/)** by Tiffany Timbers, Trevor Campbell, Melissa Lee & Samuel Hinshaw
 

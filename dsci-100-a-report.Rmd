@@ -141,7 +141,7 @@ No modern yet accessible textbooks available that are suitable for our target le
 
 **An Introduction to Data Science**
 
-by Tiffany Timbers, Melissa Lee & Samuel Hinshaw
+by Tiffany Timbers, Trevor Campbell, Melissa Lee & Samuel Hinshaw
 
 https://ubc-dsci.github.io/introduction-to-datascience/
 ]
@@ -347,7 +347,7 @@ The below links let you access the homework for DSCI 100 via a JupyterHub server
 class: middle
 # Exit survey results
 
-*16 students have completed our exit survey, so far...*
+*16 students completed our exit survey.*
 
 .pull-left[
 - **94%** student respondents reported they are **more interested in taking additional Data Science courses**
