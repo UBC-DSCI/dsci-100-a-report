@@ -1,5 +1,5 @@
-## DSCI 100: Introduction to Data Science 
-### A Discussion of Course Design Intent and Lessons Learned
+## DSCI 100 (Introduction to Data Science) - a report
+### A report on DSCI 100 at UBC, its first offering and future directions
 Tiffany A. Timbers & Trevor Campbell </br>
 Department of Statistics </br>
 
