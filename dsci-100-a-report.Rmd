@@ -123,8 +123,8 @@ class: middle
 | Lecture worksheets | 5 |
 | Tutorial problem sets | 15 |
 | Group project | 20 |
-| Two quizzes/exams | 20 |
-| Final exam | 40 |
+| Two quizzes | 40 |
+| Final exam | 20 |
 ]
 
 
