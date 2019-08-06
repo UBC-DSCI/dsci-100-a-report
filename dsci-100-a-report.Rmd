@@ -71,12 +71,12 @@ prerequisite: MATH 12
 
 # Our actual learners
 .pull-left[
-.center[Term 1: 71 students]
+.center[Term 1: 71/72 reg'd, 12 waitl'd]
 <img src="img/years19-1.png" width="250">
 <img src="img/progs19-1.png" width="250">
 ]
 .pull-right[
-.center[Term 2: 142 students]
+.center[Term 2: 142/180 reg'd, 0 waitl'd]
 <img src="img/years19-2.png" width="250">
 <img src="img/progs19-2.png" width="250">
 ]
