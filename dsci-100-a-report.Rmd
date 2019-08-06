@@ -82,6 +82,20 @@ prerequisite: MATH 12
 ]
 ---
 
+# Our actual learners
+.pull-left[
+.center[Term 1: 71/72 reg'd, 12 waitl'd]
+.center[<img src="img/yearprogs19-1.png" width="1000">]
+]
+.pull-right[
+.center[Term 2: 142/180 reg'd, 0 waitl'd]
+.center[<img src="img/yearprogs19-2.png" width="1000">]
+]
+
+---
+
+
+
 # High-level learning goals of this course
 
 At the end of the course, students will know how to:
