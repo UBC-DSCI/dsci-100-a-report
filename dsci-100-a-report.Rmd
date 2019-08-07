@@ -503,7 +503,7 @@ A list of specific prerequisite mathematical topics:
 
 .center[<img src="img/colorblind.png" width="175"><img src="img/tsne.png" width="175">]
 
-.center[Colorblind color palette ([via](https://mkweb.bcgsc.ca/colorblind)) </br>and t-SNE MNIST in 2D ([via](https://nlml.github.io/in-raw-numpy/in-raw-numpy-t-sne/)).]
+.center[colorblind color palette ([via](https://mkweb.bcgsc.ca/colorblind)) </br>and t-SNE MNIST in 2D ([via](https://nlml.github.io/in-raw-numpy/in-raw-numpy-t-sne/))]
 
 ]
 --
@@ -511,13 +511,13 @@ A list of specific prerequisite mathematical topics:
 .pull-right[
 **Handling real-world messiness:**
 
-- dealing with missing data
+- missing data
 - scaling and transforming data
-- handling unbalanced data
+- unbalanced data
 
 .center[<img src="img/unbalanced.png" width="175">]
 
-.center[unbalanced classification data]
+.center[data with unbalanced labels]
 
 ]
 
