@@ -48,13 +48,18 @@ class: middle
 
 *Emily is a first year undergraduate who is thinking of becoming a data analyst after she graduates. She only has grade 12 Math. She has heard of the R programming language and knows it is used at her university in many statistics courses (which she plans to take) but never used it (or any other programming language) before. She is finding university very financially challenging and can only afford a Chrome book.*
 
+
 --
+
+*unintended audience*
 
 *Mohammed is fourth year Biology undergraduate who plans to attend graduate school next year. His undergraduate honours thesis project requires analysis of data sets that are too big to be opened in JMP, the only data analysis software he has ever used. His thesis supervisor suggested he learn R to do the analysis. The supervisor gave him a book to read to do this, but Mohammed is having a hard time staying motivated doing this on his own without any feedback.*
 
 ---
 
-# Our actual learners
+## Our actual learners (2018/19)
+
+*Term 2*
 
 .pull-left[
 <img src="img/year.png" width="250">
@@ -67,7 +72,8 @@ class: middle
 
 ---
 
-# Our actual learners
+## Our actual learners (2019/20)
+
 .pull-left[
 <img src="img/year19-1.png" width="250">
 <img src="img/prog19-1.png" width="250">
@@ -78,7 +84,7 @@ class: middle
 ]
 ---
 
-# Our actual learners
+# Our actual learners (2019/20)
 .pull-left[
 .center[<img src="img/yearprog19-1.png" width="1000">]
 ]
@@ -100,7 +106,7 @@ At the end of the course, students will know how to:
 
 --
 
-- Recognize when a data science problem can be solved by classification, regression\* or clustering (_ \* in a predictive context only_)
+- Recognize when a data science problem can be solved by predicting labels (classification), predicting values (regression) or identifying sub groups within the data (clustering)
 
 --
 
@@ -147,7 +153,7 @@ class: inverse, middle
 
 # Textbook/readings
 
-No modern yet accessible textbooks available that are suitable for our target learners... at least that I am aware of...
+No modern yet accessible textbooks available that are suitable for our target learners... at least that we are aware of...
 
 --
 
@@ -179,9 +185,9 @@ https://ubc-dsci.github.io/introduction-to-datascience/
 ]
 
 .pull-right[
-- Jupyter notebooks are literate code documents similar to R Markdown
+- Jupyter notebooks are literate code documents (mix of code and formatted text)
 
-- Markdown and LaTeX rendering in developing environment makes them easier to read while editing
+- Markdown and LaTeX rendering during notebook editing makes formatting text easier
 
 - notebooks can be manually or autograded using an open source tool, [nbgrader](https://nbgrader.readthedocs.io/en/stable/)
 
@@ -227,7 +233,7 @@ Each topic was taught within the context of Data Science case studies:
 
 --
 
-- *they also get to learn about tests as a side-affect*
+- *they also get to learn about code tests as a side-affect*
 
 --
 
@@ -272,7 +278,7 @@ Most lectures and some tutorials had in-class activities, examples include:
 
 ## Example pair/group programming challenge
 
-The screens in the DSCI 100 classroom greatly facilitated these activites:
+The table layout and screens in the DSCI 100 classroom greatly facilitated these activites:
 
 <img src="https://learningspaces.ubc.ca/sites/learningspaces.ubc.ca/files/styles/room_images/public/classroom-images/ORCH%204074-3-2.JPG?itok=26VLoCsA&c=67023bb16f7f8c344c08cb93eef0f4d6" width="800">
 
@@ -365,19 +371,29 @@ The below links let you access the homework for DSCI 100 via a JupyterHub server
 - [worksheet_08](https://cybera.syzygy.ca/jupyter/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUBC-DSCI%2Fdsci-100&branch=master&urlpath=tree%2Fdsci-100%2Fmaterials%2Fworksheet_08%2Fworksheet_08.ipynb)
 
 ---
-class: middle
+
 # Exit survey results
 
 *16 students completed our exit survey.*
 
-.pull-left[
+--
+
 - **94%** student respondents reported they are **more interested in taking additional Data Science courses**
 
+--
+
 - **69%** of students said they perceive **every topic in the course as valuable**
+
+---
+
+# Confidence in the ability to use R
+
+.pull-left[
+<img src="img/pre-confidence.png" width="800">
 ]
 
 .pull-right[
-<img src="img/confidence.png" width="800">
+<img src="img/confidence.png" width="300">
 ]
 
 ---
@@ -437,8 +453,8 @@ class: center, middle
 # Prerequisites
 
 .pull-left[
-### Current 
-- MATH12
+### Current strategy
+Soft MATH12 prerequisite
 
 **Issues:**
 
@@ -452,7 +468,7 @@ class: center, middle
 
 .pull-right[
 
-### New
+### Proposed new strategy
 
 A list of specific prerequisite mathematical topics:
 - distance between points
@@ -478,7 +494,7 @@ A list of specific prerequisite mathematical topics:
 
 # Tools for Collaboration
 
-.center[Rather than technicalities of version control, <br/> focus on essentials of collaborative work with [Colaboratory](https://colab.research.google.com)]
+.center[Rather than technicalities of version control (e.g., Git/GitHub), <br/> focus on essentials of collaborative work with [Colaboratory](https://colab.research.google.com)]
 
 --
 
