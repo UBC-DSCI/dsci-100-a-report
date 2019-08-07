@@ -447,33 +447,121 @@ class: center, middle
 ### Current 
 - MATH12
 
-Causes lots of confusion and most material isn't necessary
+**Issues:**
 
-"Is this enough"
-
-"hi im from X is this OK"
-
-"etc etc"
-
+- confusing for non-BC students
+- most material isn't necessary
+- an artificial barrier
 
 ]
 
 --
 
 .pull-right[
+
 ### New
-- asdf
-- asdf
-- dfasdf
+
+A list of specific prerequisite mathematical topics:
+- distance between points
+- percentages, average
+- basic operations, powers, roots
+- logarithm, exponential
+- equations of a line, plane
 ]
 
+--
+
+.pull-right[
+
+**Advantages:**
+- no confusion
+- students can brush up
+- no artificial barriers
+
+]
+
+
 ---
 
-# Collaborative / Project Tools
+# Tools for Collaboration
+
+.center[Rather than technicalities of version control, &lt;br/&gt; focus on essentials of collaborative work with [Colaboratory](https://colab.research.google.com)]
+
+--
+
+- keep track of versions and who made which edits
+- deal with conflicting edits
+- revert to old versions if things break
+- store &amp; backup work to cloud for ease-of-access and redundancy
+
+--
+
+.center[&lt;img src="img/colab.png" width="570"&gt;]
+---
+
+# Textbook
+
+.pull-left[
+**More on data viz / communication:**
+
+- colorblind palettes
+- high-dimensional data
+- explaining and justifying claims
+
+.center[&lt;img src="img/colorblind.png" width="175"&gt;&lt;img src="img/tsne.png" width="175"&gt;]
+
+.center[Colorblind color palette ([via](https://mkweb.bcgsc.ca/colorblind)) &lt;/br&gt;and t-SNE MNIST in 2D ([via](https://nlml.github.io/in-raw-numpy/in-raw-numpy-t-sne/)).]
+
+]
+--
+
+.pull-right[
+**Handling real-world messiness:**
+
+- dealing with missing data
+- scaling and transforming data
+- handling unbalanced data
+
+.center[&lt;img src="img/unbalanced.png" width="175"&gt;]
+
+.center[unbalanced classification data]
+
+]
+
+--
+
+**Also: enhanced focus on best practices in collaboration, reduced jargon**
 
 ---
 
-# Autograding
+# Data
+
+.center[`dsci-data`: a common access point for DSCI-coded course datasets]
+
+**Usage:** `data &lt;- dscidata('your-dataset')`
+
+--
+
+**Advantages:**
+- better reproducibility
+	- documented cleaning, data provenance, citability, metadata
+- lower workload for students, professors
+	- no course-specific finding / cleaning data
+- extendable, "open data borders"
+- tailored for pedagogical use
+
+--
+
+**Future Goals:**
+- expand to STAT-coded courses, beyond
+- search functionality
+	- field-of-study, model type, size
+- access large datasets in small chunks ("big data API")
+
+--
+
+**Status:** currently a work in progress
+
 
 ---
 
