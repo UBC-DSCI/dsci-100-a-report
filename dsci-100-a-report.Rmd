@@ -603,11 +603,6 @@ A list of specific prerequisite mathematical topics:
 	- field-of-study, model type, size
 - access large datasets in small chunks ("big data API")
 
---
-
-**Status:** currently a work in progress
-
-
 ---
 
 # Acknowledgements
