@@ -383,6 +383,16 @@ Students generally viewed workload and difficulty as just right.
 
 ---
 
+# Mid-course survey results
+
+*39 students completed our mid-course survey.*
+
+Students generally gave high ratings to the technologies used, flipped classroom approach, and classroom space.
+
+![](img/tech_n_class.png)
+
+---
+
 class: middle
 
 # Teaching evaluations
