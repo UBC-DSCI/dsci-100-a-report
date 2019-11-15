@@ -123,15 +123,6 @@ At the end of the course, students will know how to:
 
 ---
 
-# Responsible Data Science
-
-Two facets to performing responsible data analysis:
-
-1. Applying the correct analysis and interpretation for the research/statistical question being asked 👩
-
-2. Data analysis should be reproducible and auditable 💻
-
----
 
 # Detailed learning goals of this course
 
@@ -149,6 +140,52 @@ By the end of the course, students will be able to:
 - Calculate a point estimate in the context of statistical inference and explain how that relates to the population quantity being estimated.
 - Accomplish all of the above using workflows and communication strategies that are sensible,
 clear, reproducible, and shareable.
+
+---
+
+class: inverse, middle, center
+
+# Why?
+
+---
+
+
+class: middle
+
+# Responsible Data Science
+
+Two facets to performing responsible data analysis:
+
+1. Applying the correct analysis and interpretation for the research/statistical question being asked 👩
+
+2. Data analysis should be reproducible and auditable 💻
+
+
+---
+
+class: center
+
+### Mapping the question to the correct analysis &amp; interpretation
+
+&lt;img src="img/what_is_the_question.png" width=400&gt;
+
+*Leek, J., Peng, R. (2015). What is the question? Science. [10.1126/science.aaa6146](https://science.sciencemag.org/content/347/6228/1314.full.pdf+html)*
+---
+
+class: middle
+
+### Reproducible and auditable data analysis
+
+Weapons of choice:
+
+.pull-left[
+&lt;img src="img/R_logo.svg" width=350&gt;
+]
+
+.pull-right[
+&lt;img src="https://jupyter.org/assets/main-logo.svg" width="250"&gt;
+]
+
 
 ---
 
@@ -211,7 +248,7 @@ by Tiffany Timbers, Trevor Campbell, Melissa Lee &amp; Samuel Hinshaw
 https://ubc-dsci.github.io/introduction-to-datascience/
 ]
 
-- still a work in progress (planned edits/updates happening this summer)
+- still a work in progress (planned edits/updates happening currently)
 - [open source](https://github.com/UBC-DSCI/introduction-to-datascience) and licensed [CC BY 2.5 CA](https://creativecommons.org/licenses/by/2.5/ca/)
 
 ---
@@ -239,7 +276,7 @@ Examples of DSCI 100 worksheets:
 
 # Group project
 
-End product is a self-contained reproducible data analysis and report inside a Jupyter notebook
+End product is a self-contained reproducible (Jupyter notebook) data analysis for a predictive classification question
 
 &lt;img src="img/jupyter_project_screenshot.png" width="700"&gt;
 
@@ -263,6 +300,51 @@ Each topic was taught within the context of Data Science case studies:
 &lt;img src="https://d33wubrfki0l68.cloudfront.net/795c039ba2520455d833b4034befc8cf360a70ba/558a5/diagrams/data-science-explore.png" width="700"&gt;
 
 *source: [R for Data Science](https://r4ds.had.co.nz/) by Garrett Grolemund &amp; Hadley Wickham*
+---
+
+class: middle
+
+## Examples of current data sets
+
+- [Recreational marathon runners data](https://bmcsportsscimedrehabil.biomedcentral.com/track/pdf/10.1186/s13102-016-0052-y)
+- [World Happiness Report data](https://worldhappiness.report/)
+- [Avocado sales data]()
+- [Environment Canada Departure Bay maritime data]()
+- [Madrid Pollution data]()
+- [Fast food restaurant data]()
+- [Breast Cancer data]()
+- [Hand written digits data]()
+- [Real estate sale data]()
+- [Craft beer chemical data]()
+- [Trip advisor review data]()
+
+
+*We are open to adding additional data sets to this course*
+
+---
+
+## Data that is useful for this course
+
+A single categorical dependent/response variable and at least two quantitative independent/explanatory variables where when you plot the two explanatory variables as a scatter plot you get separation by the response variable.
+
+&lt;img src="img/classification.png" height=400&gt;
+
+---
+
+## Data that is useful for this course
+
+A single quantitative dependent/response variable and at least one quantitative independent/explanatory variable where when you plot the two variables as a scatter plot you get a somewhat linear relationship. 
+
+&lt;img src="img/regression.png" height=400&gt;
+
+---
+
+## Data that is useful for this course
+
+At least two quantitative variables where when you plot them as a scatter plot you get separation into clusters. No labels are needed for the clusters,- the point is to identify sub-groupings in your data that you didn’t know existed
+
+&lt;img src="img/clustering.png" height=400&gt;
+
 ---
 
 # Practice with immediate feedback
@@ -617,32 +699,6 @@ A list of specific prerequisite mathematical topics:
 
 ---
 
-# Data
-
-.center[`dsci-data`: a common access point for DSCI-coded course datasets]
-
-**Usage:** `data &lt;- dscidata('your-dataset')`
-
---
-
-**Advantages:**
-- better reproducibility
-	- documented cleaning, data provenance, citability, metadata
-- lower workload for students, professors
-	- no course-specific finding / cleaning data
-- extendable, "open data borders"
-- tailored for pedagogical use
-
---
-
-**Future Goals:**
-- expand to STAT-coded courses, beyond
-- search functionality
-	- field-of-study, model type, size
-- access large datasets in small chunks ("big data API")
-
----
-
 # Acknowledgements
 
 .pull-left[
@@ -668,12 +724,9 @@ A list of specific prerequisite mathematical topics:
 - Calvin Leung
 - Yuvi Pandas
 
-#### DSCI 100 Teaching Team:
+#### DSCI 100 Instructors:
 - Tiffany Timbers
 - Trevor Campbell
-- Aaron Quinton
-- Harmeet Gill
-- Ian Flores-Siaca
 
 ]
 ---
