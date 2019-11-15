@@ -12,10 +12,10 @@
 class: center, middle, inverse, title-slide
 
 # DSCI 100: Introduction to Data Science
-## A report on its first offering and future directions
+## A report on its initals offerings and future directions
 ### Tiffany Timbers &amp; Trevor Campbell
 ### University of British Columbia
-### 2019/08/02 (updated: 2019-08-07)
+### 2019/11/15 (updated: 2019-11-15)
 
 ---
 
@@ -40,11 +40,13 @@ class: middle
 
 # Design Intent
 
-1. Introduce Data Science to undergraduates in an authentic way
+1. Introduce the types of research questions that can be addressed using Data Science
 
-2. Use pedagogical best practices
+2. Teach Data Science to undergraduates in an authentic way
 
-3. Reduce barriers to entry and success
+3. Use pedagogical best practices
+
+4. Reduce barriers to entry and success
 
 ---
 
@@ -109,15 +111,44 @@ At the end of the course, students will know how to:
 
 --
 
-- Use modern reproducible tools (Jupyter notebooks, R, `tidyverse` &amp; `caret` R packages) to do data analysis
+- Map research/statistical questions to the appropriate type of data analysis. 
 
 --
 
-- Recognize when a data science problem can be solved by predicting labels (classification), predicting values (regression) or identifying sub groups within the data (clustering)
+- Use modern reproducible tools (Jupyter notebooks, R, `tidyverse` &amp; `caret` R packages) to solve classification (predicting labels), regression (predicting values) and clustering problems (identifying sub groups within the data).
 
 --
 
-- Use R to solve classification, regression and clustering problems, and correctly interpret and communicate the results
+- Correctly interpret and communicate the results from predictive classification and regression, as well as clustering analysis.
+
+---
+
+# Responsible Data Science
+
+Two facets to performing responsible data analysis:
+
+1. Applying the correct analysis and interpretation for the research/statistical question being asked 👩
+
+2. Data analysis should be reproducible and auditable 💻
+
+---
+
+# Detailed learning goals of this course
+
+By the end of the course, students will be able to:
+
+- Read data using computation from various sources (local and remote plain text files, spreadsheets and databases)
+- Wrangle data from their original format into a fit-for-purpose format.
+- Identify the most common types of research/statistical questions and map them to the appropriate type of data analysis.
+- Create, and interpret, meaningful tables from wrangled data.
+- Create, and interpret, impactful figures from wrangled data.
+- Apply, and interpret the output of simple classifier and regression models.
+- Make and evaluate predictions using a simple classifier and a regression model.
+- Apply, and interpret the output of, a simple clustering algorithm.
+- Distinguish between in-sample prediction, out-of-sample prediction, and cross-validation.
+- Calculate a point estimate in the context of statistical inference and explain how that relates to the population quantity being estimated.
+- Accomplish all of the above using workflows and communication strategies that are sensible,
+clear, reproducible, and shareable.
 
 ---
 
@@ -650,8 +681,6 @@ A list of specific prerequisite mathematical topics:
 class: inverse, middle, center
 
 # Questions?
-
-&lt;!--chapter:end:dsci-100-a-report.Rmd--&gt;
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
@@ -698,7 +727,24 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     deleted = true;
   });
-})();</script>
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
 
 <script>
 (function() {
